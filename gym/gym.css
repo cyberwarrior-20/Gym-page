@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("gym.jpg");
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    }
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    width: 100px;
+}
+.left img{
+    width: 100px;
+    
+}
+.left div{
+    line-height: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    /* border: 2px solid red; */
+    width: 45%;
+    margin: 30px auto;
+    margin-top: 50px;
+    /* position: relative; */
+}
+.right{
+    /* border: 2px solid red; */
+    position: absolute;
+    right: 35px;
+    top: 52px;
+    display: inline-block;
+
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 20px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(211, 44, 44);
+}
+/* .navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey; */
+}
+.btn{
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid red;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: rgb(211, 44, 44);
+}
+.container{
+    margin: 105px 80px;
+    padding: 75px;
+    width: 40%;
+    border-radius: 30px;
+}
+.form-group input{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 2px;
+    margin: 12px auto;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+footer {
+
+    bottom: 0;
+    padding-bottom: 0;
+    width: 100%;
+     bottom: 510px;
+       position:absolute;
+     bottom:auto;
+     width:100%;
+     box-decoration-break: inherit;
+    
+    
+  }
+  footer ul li {
+    display: inline;
+    color: #ee0d0d;
+    font-size: 14px;
+    padding: 13px;
+  }
+  footer ul {
+    float: left;
+    padding: 1px;
+    float: none;
+     padding-bottom: 2px;
+     float: none;
+     padding-bottom: 2px;
+  }
+  footer ul :hover{
+      color: red;
+  }
+  
+  footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    float: right;
+     text-align: center;
+     padding: 10px;
+  }
+  
+   .footer-left {
+     text-align: center;
+     padding-top: 10px;
+     float:left;
+      
+   }
+   .footer-india{
+   text-align: center;
+     padding-top: 10px;
+     float:left;
+     color: red;
+  }
+  .language
+  {
+      text-align: center;
+      color: black;
+  }
+  a
+  {
+      color: white;
+  }
+  b
+  {
+      color: red;
+  }
+  
